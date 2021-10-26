@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Circle';
+  src: url('../fonts/Circe-Light.woff2') format('woff2'),
+      url('../fonts/Circe-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Orchidea Pro';
+  src: url('../fonts/OrchideaPro-Medium.woff2') format('woff2'),
+      url('../fonts/OrchideaPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
