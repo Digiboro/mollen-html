@@ -3,7 +3,7 @@
 
 <head>
   <?php include 'include-blocks/head.php' ?>
-  <title>Mollen</title>
+  <title>Куки</title>
 </head>
 
 <body>
@@ -15,9 +15,6 @@
       <div class="page-faq-inner">
         <div class="breadcrumbs">
           <ul class="breadcrumbs-list">
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="">Главная</a>
-            </li>
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="">Главная</a>
             </li>

@@ -3,14 +3,14 @@
 
 <head>
   <?php include 'include-blocks/head.php' ?>
-  <title>Mollen</title>
+  <title>404</title>
 </head>
 
 <body>
-  <main class="page-404 main">
-    <div class="page-404-inner">
-      <h1 class="page-404-title">404</h1>
-      <p class="page-404-text">страница не найдена или была удалена</p>
+  <main class="main-404 main">
+    <div class="main-404-inner">
+      <h1 class="main-404-title">404</h1>
+      <p class="main-404-text">страница не найдена или была удалена</p>
       <a class="btn btn-large" href="">
         <span class="btn-text">Перейти в каталог</span>
       </a>

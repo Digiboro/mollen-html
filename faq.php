@@ -3,21 +3,18 @@
 
 <head>
   <?php include 'include-blocks/head.php' ?>
-  <title>Mollen</title>
+  <title>Частые вопросы</title>
 </head>
 
 <body>
   <!-- header -->
   <?php include 'include-blocks/header.php' ?>
 
-  <main class="page-faq main">
+  <main class="main-faq main">
     <div class="container">
-      <div class="page-faq-inner">
+      <div class="main-faq-inner row-1">
         <div class="breadcrumbs">
           <ul class="breadcrumbs-list">
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="">Главная</a>
-            </li>
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="">Главная</a>
             </li>
@@ -27,7 +24,7 @@
           </ul>
         </div>
 
-        <h2 class="faq-title">Часто задаваемые вопросы</h2>
+        <h2 class="main-faq-title h2">Часто задаваемые вопросы</h2>
 
         <div class="faq">
           <div class="faq-item">
