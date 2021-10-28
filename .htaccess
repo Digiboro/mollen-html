@@ -1,0 +1,2 @@
+Options +Indexes
+IndexIgnore .ftp-deploy-sync-state.json
