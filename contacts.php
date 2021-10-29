@@ -12,8 +12,8 @@
 
   <main class="main-contacts main">
     <div class="container no-padding-desktop">
-      <div class="main-contacts-inner row-2">
-        <div class="main-contacts-content-wrap row-2-col-1">
+      <div class="main-contacts-inner grid-2-cols">
+        <div class="main-contacts-content-wrap col">
           <div class="breadcrumbs">
             <ul class="breadcrumbs-list">
               <li class="breadcrumbs-item">
@@ -62,10 +62,8 @@
 
         </div>
 
-        <div class="row-2-col-2">
-          <div class="main-contacts-map">
-            <img width="720" height="860" src="img/map.jpg" alt="map">
-          </div>
+        <div class="main-contacts-map col">
+          <img width="720" height="860" src="img/map.jpg" alt="map">
         </div>
       </div>
     </div>

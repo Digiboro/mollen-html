@@ -12,8 +12,8 @@
 
   <main class="main-checkout main">
     <div class="container no-padding-desktop">
-      <div class="main-checkout-inner row-2">
-        <div class="main-checkout-content-wrap row-2-col-1">
+      <div class="main-checkout-inner grid-2-cols">
+        <div class="main-checkout-content-wrap col">
           <div class="breadcrumbs">
             <ul class="breadcrumbs-list">
               <li class="breadcrumbs-item">
@@ -36,7 +36,7 @@
           </div>
         </div>
 
-        <div class="row-2-col-2">
+        <div class="col">
           <div class="main-checkout-img">
             <img width="720" height="739" src="img/checkout.jpg" alt="img">
           </div>

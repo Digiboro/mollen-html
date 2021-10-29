@@ -3,7 +3,7 @@
 
 <head>
   <?php include 'include-blocks/head.php' ?>
-  <title>Поисковая выдача без результата</title>
+  <title>Вы выбрали товар</title>
 </head>
 
 <body>
@@ -29,28 +29,10 @@
                   </li>
                 </ul>
               </div>
-              <h2 class="category-title h2">Пододеяльник</h2>
-              <p class="category-content-top-text">По запросу “подельник” не нашлось ничего, возможно вам понравится что-то другое из нашего каталога </p>
+              <h2 class="category-title h2">Вы выбрали товары</h2>
             </div>
           </div>
           
-          <div class="category-content-actions">
-            <div class="category-sort">
-              <button class="category-filter-popular category-sort-btn" type="button">
-                <span>По популярности</span>
-                <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 5s-1.2257-.8856-1.909-1.6667C5.4074 2.5523 4.5 1 4.5 1m0 0s-.9075 1.5523-1.591 2.3333C2.2258 4.1143 1 5 1 5m3.5-4v7" stroke="#72716E" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </button>
-              <button class="category-filter-price category-sort-btn" type="button">
-                <span>По цене</span>
-                <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 5s-1.2257-.8856-1.909-1.6667C5.4074 2.5523 4.5 1 4.5 1m0 0s-.9075 1.5523-1.591 2.3333C2.2258 4.1143 1 5 1 5m3.5-4v7" stroke="#72716E" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </button>
-            </div>
-            <div class="category-buttons">
-              <button class="category-instock-btn btn-dot" type="button">В наличии</button>
-              <button class="category-special-btn btn-dot btn-dot-blue" type="button">Спецпредложения</button>
-            </div>
-          </div>
-
           <div class="category-product-list">
             <div class="product hover-effect">
               <div class="product-inner">
@@ -258,6 +240,52 @@
                     <span class="btn-text">В корзину</span>
                   </button>
                   <button class="product-quickbuy" type="button">Быстрая покупка</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="category-choosen-bottom">
+            <div class="category-pagination-more">
+              <div class="category-pagination pagination">
+                <ul class="pagination-list">
+                  <li class="pagination-item">
+                    <a class="pagination-link" href="">1</a>
+                  </li>
+                  <li class="pagination-item active">
+                    <a class="pagination-link" href="">2</a>
+                  </li>
+              
+                  <li class="pagination-item">
+                    <a class="pagination-link" href="">3</a>
+                  </li>
+                </ul>
+              </div>
+              <button class="category-more-trigger" type="button"><svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.396 8.0703 11.325.9993l-7.071 7.071M11.3269 23.6262l-7.071-7.071m7.071 7.071 7.0711-7.071m-7.0711 7.071V.9988" stroke="#222730"/></svg><span>показать больше</span></button>
+            </div>
+
+            <div class="category-recently-viewed">
+              <p class="category-recently-viewed-title">Недавно смотрели</p>
+              <div class="category-recently-viewed-list">
+                <div class="category-recently-viewed-item">
+                  <a class="category-recently-viewed-item-img" href="">
+                    <img src="img/recently-viewed.png" alt="img">
+                  </a>
+                  <a class="category-recently-viewed-item-title" href="">название комплекта</a>
+                </div>
+                
+                <div class="category-recently-viewed-item">
+                  <a class="category-recently-viewed-item-img" href="">
+                    <img src="img/recently-viewed.png" alt="img">
+                  </a>
+                  <a class="category-recently-viewed-item-title" href="">название комплекта</a>
+                </div>
+                
+                <div class="category-recently-viewed-item">
+                  <a class="category-recently-viewed-item-img" href="">
+                    <img src="img/recently-viewed.png" alt="img">
+                  </a>
+                  <a class="category-recently-viewed-item-title" href="">название комплекта</a>
                 </div>
               </div>
             </div>

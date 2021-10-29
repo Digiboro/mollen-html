@@ -71,7 +71,7 @@
             <span>Youtube</span>
             <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.082 2.7824c-.1945-.723-.7645-1.2928-1.4873-1.4875C14.2742.9336 8.992.9336 8.992.9336s-5.282 0-6.6025.3476c-.709.1945-1.2928.7784-1.4873 1.5012C.5547 4.1028.5547 6.8412.5547 6.8412s0 2.7522.3475 4.0588a2.1145 2.1145 0 0 0 1.4874 1.4874c1.3343.3614 6.6026.3614 6.6026.3614s5.282 0 6.6025-.3476a2.1145 2.1145 0 0 0 1.4875-1.4873c.3474-1.3205.3474-4.0588.3474-4.0588s.0139-2.7523-.3476-4.0727ZM7.3102 9.371V4.3114l4.3925 2.5298L7.3102 9.371Z" fill="#4E76C6"/></svg>
           </a>
-          <a class="footer-social-link" href="">
+          <a class="footer-social-link social-inst" href="">
             <span>Instagram</span>
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.7499 1.5h-7.5c-2.0711 0-3.75 1.679-3.75 3.75v7.5c0 2.0711 1.6789 3.75 3.75 3.75h7.5c2.071 0 3.75-1.6789 3.75-3.75v-7.5c0-2.071-1.679-3.75-3.75-3.75Z" stroke="#4E76C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M11.9988 8.5287a3 3 0 1 1-5.9352.88 3 3 0 0 1 5.9352-.88Z" stroke="#4E76C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
