@@ -12,7 +12,7 @@
 
   <main class="main-search-result main">
     <div class="container">
-      <div class="main-search-result-inner row-1">
+      <div class="main-search-result-inner">
         <div class="main-search-result-top">
           <div class="breadcrumbs">
             <ul class="breadcrumbs-list">

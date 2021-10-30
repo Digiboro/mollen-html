@@ -12,7 +12,7 @@
 
   <main class="main-faq main">
     <div class="container">
-      <div class="main-faq-inner row-1">
+      <div class="main-faq-inner">
         <div class="breadcrumbs">
           <ul class="breadcrumbs-list">
             <li class="breadcrumbs-item">
