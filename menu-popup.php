@@ -10,7 +10,9 @@
   <div class="menu popup popup-full">
     <div class="container no-padding-desktop">
       <div class="menu-inner popup-inner">
-        <button class="popup-menu-close-trigger btn-close"><svg width="12" height="12" viewBox="0 0 12 12" fill="#72716E" xmlns="http://www.w3.org/2000/svg"><path d="M1.559 11.5589.3405 10.3405l4.3517-4.3517L.3518 1.6483 1.5732.4268l4.3406 4.3405L10.24.4411l1.2184 1.2184-4.3262 4.3262 4.3405 4.3406-1.2215 1.2215-4.3406-4.3406L1.559 11.559Z"/></svg></button>
+        <button class="popup-menu-close-trigger btn-close">
+          <svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1.1765 7.1765-.6962-.6962L2.967 3.9936.4867 1.5133l.698-.698L3.665 3.2956 6.1372.8235l.6962.6962-2.4722 2.4721 2.4804 2.4804-.698.698-2.4804-2.4804-2.4867 2.4867Z" fill="#72716E"/></svg>
+        </button>
         <div class="grid-1-3-cols">
           <div class="menu-sidebar col">
             <div class="menu-sidebar-body">

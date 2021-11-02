@@ -245,48 +245,46 @@
             </div>
           </div>
 
-          <div class="category-choosen-bottom">
-            <div class="category-pagination-more">
-              <div class="category-pagination pagination">
-                <ul class="pagination-list">
-                  <li class="pagination-item">
-                    <a class="pagination-link" href="">1</a>
-                  </li>
-                  <li class="pagination-item active">
-                    <a class="pagination-link" href="">2</a>
-                  </li>
-              
-                  <li class="pagination-item">
-                    <a class="pagination-link" href="">3</a>
-                  </li>
-                </ul>
-              </div>
-              <button class="category-more-trigger" type="button"><svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.396 8.0703 11.325.9993l-7.071 7.071M11.3269 23.6262l-7.071-7.071m7.071 7.071 7.0711-7.071m-7.0711 7.071V.9988" stroke="#222730"/></svg><span>показать больше</span></button>
+          <div class="category-pagination-more">
+            <div class="category-pagination pagination">
+              <ul class="pagination-list">
+                <li class="pagination-item">
+                  <a class="pagination-link" href="">1</a>
+                </li>
+                <li class="pagination-item active">
+                  <a class="pagination-link" href="">2</a>
+                </li>
+            
+                <li class="pagination-item">
+                  <a class="pagination-link" href="">3</a>
+                </li>
+              </ul>
             </div>
+            <button class="category-more-trigger" type="button"><svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.396 8.0703 11.325.9993l-7.071 7.071M11.3269 23.6262l-7.071-7.071m7.071 7.071 7.0711-7.071m-7.0711 7.071V.9988" stroke="#222730"/></svg><span>показать больше</span></button>
+          </div>
 
-            <div class="category-recently-viewed">
-              <p class="category-recently-viewed-title">Недавно смотрели</p>
-              <div class="category-recently-viewed-list">
-                <div class="category-recently-viewed-item">
-                  <a class="category-recently-viewed-item-img" href="">
-                    <img src="img/recently-viewed.png" alt="img">
-                  </a>
-                  <a class="category-recently-viewed-item-title" href="">название комплекта</a>
-                </div>
-                
-                <div class="category-recently-viewed-item">
-                  <a class="category-recently-viewed-item-img" href="">
-                    <img src="img/recently-viewed.png" alt="img">
-                  </a>
-                  <a class="category-recently-viewed-item-title" href="">название комплекта</a>
-                </div>
-                
-                <div class="category-recently-viewed-item">
-                  <a class="category-recently-viewed-item-img" href="">
-                    <img src="img/recently-viewed.png" alt="img">
-                  </a>
-                  <a class="category-recently-viewed-item-title" href="">название комплекта</a>
-                </div>
+          <div class="category-recently-viewed">
+            <p class="category-recently-viewed-title">Недавно смотрели</p>
+            <div class="category-recently-viewed-list">
+              <div class="category-recently-viewed-item">
+                <a class="category-recently-viewed-item-img" href="">
+                  <img src="img/recently-viewed.png" alt="img">
+                </a>
+                <a class="category-recently-viewed-item-title" href="">название комплекта</a>
+              </div>
+              
+              <div class="category-recently-viewed-item">
+                <a class="category-recently-viewed-item-img" href="">
+                  <img src="img/recently-viewed.png" alt="img">
+                </a>
+                <a class="category-recently-viewed-item-title" href="">название комплекта</a>
+              </div>
+              
+              <div class="category-recently-viewed-item">
+                <a class="category-recently-viewed-item-img" href="">
+                  <img src="img/recently-viewed.png" alt="img">
+                </a>
+                <a class="category-recently-viewed-item-title" href="">название комплекта</a>
               </div>
             </div>
           </div>
