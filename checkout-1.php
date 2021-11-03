@@ -21,7 +21,7 @@
                   <a class="breadcrumbs-link" href="">Главная</a>
                 </li>
                 <li class="breadcrumbs-item">
-                  Оформление заказа
+                  Корзина
                 </li>
               </ul>
             </div>
