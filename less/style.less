@@ -2072,12 +2072,7 @@ em {
 
 .dragg-slider-inner {
   display: flex;
-}
-
-.dragg-slider-item {
-  &+& {
-    margin-left: 40px;
-  }
+  justify-content: space-between;
 }
 
 .card-list {
@@ -3116,6 +3111,10 @@ p.text-page-center-text {
 /*                     INDEX                    */
 /* -------------------------------------------- */
 
+.index {
+  padding-bottom: 80px;
+}
+
 .intro {
   position: relative;
   min-height: 1030px;
@@ -3287,6 +3286,7 @@ p.text-page-center-text {
 .intro-constructor-btn {
   position: relative;
   margin-top: auto;
+  background-color: #fff !important;
 }
 
 .intro-constructor-products {
@@ -3299,4 +3299,123 @@ p.text-page-center-text {
 
 .intro-constructor-product {
   width: 50%;
+}
+
+.intro-catalog {
+  background: #F5F3F0;
+}
+.intro-catalog-inner {
+  display: flex;
+}
+.intro-catalog-content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.intro-catalog-title {
+  margin-bottom: 110px;
+  font-size: 40px;
+  .op();
+}
+
+.intro-catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro-catalog-item {
+  position: relative;
+  width: 50%;
+  padding-left: 20px;
+  margin-bottom: 35px;
+  color: #1E1E1E;
+  .op();
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: #1E1E1E;
+    border-radius: 50%;
+  }
+}
+
+.intro-catalog-bottom {
+  margin-top: auto;
+}
+
+.intro-catalog-text-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-catalog-text {
+  max-width: 274px;
+  width: 100%;
+}
+
+.intro-catalog-img {
+  position: relative;
+  width: 50%;
+  margin-bottom: 40px;
+  min-height: 739px;
+  background: url('../img/intro-catalog.jpg') no-repeat center / cover;
+}
+
+.intro-catalog-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+}
+
+.intro-catalog-audio-list {
+  margin-top: auto;
+}
+
+.audio {
+  display: flex;
+  flex-direction: column;
+  &+& {
+    margin-top: 15px;
+  }
+}
+
+.audio-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.audio-play {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.audio-title {
+  color: #72716E;
+}
+
+.audio-timeline {
+  position: relative;
+  background: #ECEAE7;
+  height: 2px;
+}
+
+.audio-timeline-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #1E1E1E;
+  height: 100%;
+}
+
+.audio-time {
+  margin-left: auto;
+  margin-top: 9px;
+  font-size: 10px;
+  color: #72716E;
 }
