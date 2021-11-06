@@ -60,11 +60,11 @@
               <p class="intro-slider-title">В незапамятные времена<br> наши предки-славяне<br> называли</p>
             </div>
           </div>
-          <div class="arrow-wrap">
-            <button class="arrow" type="button">
+          <div class="intro-slider-arrow-wrap arrow-wrap">
+            <button class="intro-slider-arrow arrow" type="button">
               <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.6758 1S3.7902 2.2257 3.009 2.909C2.2281 3.5926.6758 4.5.6758 4.5s1.5523.9075 2.3333 1.591C3.7901 6.7742 4.6758 8 4.6758 8" stroke="#72716E" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </button>
-            <button class="arrow" type="button">
+            <button class="intro-slider-arrow arrow" type="button">
               <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7.6797s.8856-1.2257 1.6667-1.9091C3.4477 5.0872 5 4.1796 5 4.1796s-1.5523-.9074-2.3333-1.5908C1.8857 1.9054 1 .6797 1 .6797" stroke="#72716E" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </button>
           </div>

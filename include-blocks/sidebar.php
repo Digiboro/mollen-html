@@ -204,7 +204,7 @@
   </div>
 
   <div class="sidebar-item">
-    <button class="sidebar-size-guide-trigger" type="button">
+    <button class="sidebar-size-guide-trigger link-sidebar" type="button">
       <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#72716E" d="M1 1h28v28H1z"/><path d="M23 17V7H13M7 23V13m0 10h10M7 23 23 7" stroke="#72716E"/></svg>
       <span>Размерный гид</span>
     </button>
