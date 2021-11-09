@@ -30,4 +30,33 @@ $(function () {
       crossFade: true
     },
   });
+
+  // product slider preview
+  let sliderProductPreview = new Swiper('.complect-page-preview-slider', {
+    touchEventsTarget: 'wrapper',
+    direction: 'vertical',
+    // simulateTouch: false,
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+    slidesPerView: 5,
+    touchRatio: 0,
+    spaceBetween: 20,
+  });
+
+  // product slider main
+  let sliderProductMain = new Swiper('.complect-page-slider-big', {
+    touchEventsTarget: 'wrapper',
+    // simulateTouch: false,
+    slidesPerView: 1,
+    spaceBetween: 40,
+    navigation: {
+      nextEl: '.complect-page-arrow.next',
+      prevEl: '.complect-page-arrow.prev',
+    },
+    thumbs: {
+      swiper: sliderProductPreview
+    }
+  });
 });
+
+

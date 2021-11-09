@@ -12,7 +12,7 @@
 
   <main class="main-complect-page complect-page main">
     <div class="container">
-      <div class="complect-page-inner">
+      <div class="complect-page-sliders-content-wrap">
         <div class="complect-page-sliders-actions">
           <div class="complect-page-sliders">
             <div class="complect-page-slider-small-wrap">
@@ -24,35 +24,46 @@
                   <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.6758 1S3.7902 2.2257 3.009 2.909C2.2281 3.5926.6758 4.5.6758 4.5s1.5523.9075 2.3333 1.591C3.7901 6.7742 4.6758 8 4.6758 8" stroke="#72716E" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
               </div>
-              <div class="complect-page-preview-slider">
-                <div class="complect-page-preview-slider-inner">
-                  <div class="complect-page-preview-item">
+              <div class="complect-page-preview-slider swiper-container">
+                <div class="complect-page-preview-slider-inner swiper-wrapper">
+                  <div class="complect-page-preview-item swiper-slide">
                     <img src="img/complect-page-preview-1.jpg" alt="img">
                   </div>
-                  <div class="complect-page-preview-item">
+                  <div class="complect-page-preview-item swiper-slide">
                     <img src="img/complect-page-preview-1.jpg" alt="img">
                   </div>
-                  <div class="complect-page-preview-item">
+                  <div class="complect-page-preview-item swiper-slide">
                     <img src="img/complect-page-preview-1.jpg" alt="img">
                   </div>
-                  <div class="complect-page-preview-item">
+                  <div class="complect-page-preview-item swiper-slide">
                     <img src="img/complect-page-preview-1.jpg" alt="img">
                   </div>
-                  <div class="complect-page-preview-item">
+                  <div class="complect-page-preview-item swiper-slide">
                     <img src="img/complect-page-preview-1.jpg" alt="img">
                   </div>
                 </div>
               </div>
             </div>
-            <div class="complect-page-slider-big">
-              <div class="complect-page-slider-big-inner">
-                <div class="complect-page-slider-big-item">
+            <div class="complect-page-slider-big swiper-container">
+              <div class="complect-page-slider-big-inner swiper-wrapper">
+                <div class="complect-page-slider-big-item swiper-slide">
+                  <img src="img/complect-page-slider-big-1.jpg" alt="img">
+                </div>
+                <div class="complect-page-slider-big-item swiper-slide">
+                  <img src="img/complect-page-slider-big-1.jpg" alt="img">
+                </div>
+                <div class="complect-page-slider-big-item swiper-slide">
+                  <img src="img/complect-page-slider-big-1.jpg" alt="img">
+                </div>
+                <div class="complect-page-slider-big-item swiper-slide">
+                  <img src="img/complect-page-slider-big-1.jpg" alt="img">
+                </div>
+                <div class="complect-page-slider-big-item swiper-slide">
                   <img src="img/complect-page-slider-big-1.jpg" alt="img">
                 </div>
               </div>
             </div>
           </div>
-
           <div class="complect-page-actions">
             <button class="complect-page-share" type="button">
               <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="3" transform="rotate(-90 15 15)" stroke="#1E1E1E"/><circle cx="4" cy="15" r="3" transform="rotate(-90 4 15)" stroke="#1E1E1E"/><circle cx="4" cy="4" r="3" transform="rotate(-90 4 4)" stroke="#1E1E1E"/><path d="M4 12V7M7 15h5" stroke="#1E1E1E"/></svg>
