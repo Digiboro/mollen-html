@@ -453,6 +453,10 @@ em {
   }
 }
 
+.fz-20 {
+  font-size: 20px;
+}
+
 /* -------------------------------------------- */
 /*                    HEADER                    */
 /* -------------------------------------------- */
@@ -875,10 +879,10 @@ em {
 }
 
 /* -------------------------------------------- */
-/*                      404                     */
+/*                   PAGE 404                   */
 /* -------------------------------------------- */
 
-.main-404 {
+.page-404 {
   position: relative;
   min-height: 400px;
   color: #FFFFFF;
@@ -898,25 +902,32 @@ em {
   }
 }
 
-.main-404-inner {
+.page-404-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.page-404-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  padding: 40px 0;
 }
 
-.main-404-title {
+.page-404-title {
   font-size: 200px;
   letter-spacing: 0.08em;
   line-height: 1;
   .op();
 }
 
-.main-404-text {
+.page-404-text {
+  margin-top: 20px;
   margin-bottom: 56px;
   text-transform: uppercase;
-  font-size: 20px;
   letter-spacing: 0.1em;
   .op();
 }
@@ -1542,29 +1553,27 @@ em {
   }
 }
 
-.category-slider {
+.category-slider-wrap {
   padding: 40px;
-  color: #FFFFFF;
   border-left: 1px solid #eceae7;
   border-right: 1px solid #eceae7;
   border-bottom: 1px solid #eceae7;
-}
-
-.category-slider-inner {
-  display: flex;
-  overflow: hidden;
+  color: #FFFFFF;
 }
 
 .category-slider-item {
   position: relative;
+  width: 1230px;
+}
+
+.category-slider-item-content {
   display: flex;
   flex-direction: column;
-  min-width: 1200px;
-  min-height: 530px;
-  padding: 40px;
-  &+& {
-    margin-left: 40px;
-  }
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
 }
 
 .category-slider-title {
@@ -1582,8 +1591,8 @@ em {
 
 .category-slider-btn {
   position: absolute;
-  right: 40px;
-  bottom: 40px;
+  right: 0;
+  bottom: 0;
 }
 
 .category-content-top {
@@ -2036,8 +2045,12 @@ em {
   margin-top: auto;
 }
 
-.single-slider {
+.single-slider-wrap {
   position: relative;
+}
+
+.single-slider {
+  
 }
 
 .single-slider-arrows {
@@ -2099,6 +2112,12 @@ em {
 .dragg-slider-inner {
   display: flex;
   justify-content: space-between;
+}
+
+.dragg-slider-item {
+  img {
+    width: 100%;
+  }
 }
 
 .card-list {
@@ -3454,10 +3473,6 @@ p.text-page-center-text {
 .complect-page {
   padding-top: 68px;
   padding-bottom: 68px;
-}
-
-.complect-page-inner {
-  
 }
 
 .complect-page-sliders-content-wrap {

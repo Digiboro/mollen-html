@@ -48,7 +48,8 @@
   <!-- footer -->
   <?php include 'include-blocks/footer.php' ?>
 
-  <script src="js/main.js"></script>
+  <!-- scripts -->
+  <?php include 'include-blocks/scripts.php' ?>
 </body>
 
 </html>

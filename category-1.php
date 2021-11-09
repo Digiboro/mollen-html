@@ -9,21 +9,33 @@
 <body>
   <!-- header -->
   <?php include 'include-blocks/header.php' ?>
-
+  <!-- category -->
   <main class="category main-category main">
     <div class="container no-padding-desktop">
-      <div class="category-slider">
-        <div class="category-slider-inner">
-          <div class="category-slider-item" style="background-image: url(img/category-slider-1.jpg);">
-            <p class="category-slider-title">новая<br> коллекция</p>
-            <p class="category-slider-text">У каждого принта «Моллен» есть своя история,<br> которую мы вам сейчас расскажем.</p>
-            <a class="category-slider-btn btn btn-extra-small btn-white btn-dot-2" href="">
-              <span class="btn-text">перейти</span>
-            </a>
-          </div>
-          <div class="category-slider-item" style="background-image: url(img/category-slider-1.jpg);">
-            <p class="category-slider-title">новая<br> коллекция</p>
-            <p class="category-slider-text">У каждого принта «Моллен» есть своя история,<br> которую мы вам сейчас расскажем.</p>
+      <div class="category-slider-wrap">
+        <div class="category-slider swiper-container">
+          <div class="category-slider-inner swiper-wrapper">
+            <div class="category-slider-item swiper-slide">
+              <img src="img/category-slider-1.jpg" alt="img">
+              <div class="category-slider-item-content">
+                <p class="category-slider-title">новая<br> коллекция</p>
+                <p class="category-slider-text">У каждого принта «Моллен» есть своя история,<br> которую мы вам сейчас расскажем.</p>
+                <a class="category-slider-btn btn btn-extra-small btn-white btn-dot-2" href="">
+                  <span class="btn-text">перейти</span>
+                </a>
+              </div>
+            </div>
+            
+            <div class="category-slider-item swiper-slide">
+              <img src="img/category-slider-1.jpg" alt="img">
+              <div class="category-slider-item-content">
+                <p class="category-slider-title">новая<br> коллекция</p>
+                <p class="category-slider-text">У каждого принта «Моллен» есть своя история,<br> которую мы вам сейчас расскажем.</p>
+                <a class="category-slider-btn btn btn-extra-small btn-white btn-dot-2" href="">
+                  <span class="btn-text">перейти</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -518,7 +530,8 @@
   <!-- footer -->
   <?php include 'include-blocks/footer.php' ?>
 
-  <script src="js/main.js"></script>
+  <!-- scripts -->
+  <?php include 'include-blocks/scripts.php' ?>
 </body>
 
 </html>

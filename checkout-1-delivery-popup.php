@@ -59,7 +59,8 @@
     </div>
   </div>
 
-  <script src="js/main.js"></script>
+  <!-- scripts -->
+  <?php include 'include-blocks/scripts.php' ?>
 </body>
 
 </html>

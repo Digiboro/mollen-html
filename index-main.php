@@ -270,21 +270,21 @@
           </div>
         </div>
 
-        <div class="dragg-slider">
-          <div class="dragg-slider-inner">
-            <div class="dragg-slider-item">
+        <div class="dragg-slider swiper-container">
+          <div class="dragg-slider-inner swiper-wrapper">
+            <div class="dragg-slider-item swiper-slide">
               <img src="img/catalog-dragg-1.jpg" alt="img">
             </div>
 
-            <div class="dragg-slider-item">
+            <div class="dragg-slider-item swiper-slide">
               <img src="img/catalog-dragg-2.jpg" alt="img">
             </div>
 
-            <div class="dragg-slider-item">
+            <div class="dragg-slider-item swiper-slide">
               <img src="img/catalog-dragg-3.jpg" alt="img">
             </div>
 
-            <div class="dragg-slider-item">
+            <div class="dragg-slider-item swiper-slide">
               <img src="img/catalog-dragg-4.jpg" alt="img">
             </div>
           </div>
@@ -296,7 +296,8 @@
   <!-- footer -->
   <?php include 'include-blocks/footer.php' ?>
 
-  <script src="js/main.js"></script>
+  <!-- scripts -->
+  <?php include 'include-blocks/scripts.php' ?>
 </body>
 
 </html>
