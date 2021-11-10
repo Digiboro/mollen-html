@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/magnific-popup.css">
 <link rel="stylesheet" href="css/swiper.css">
-<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/nouislider.css">
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/media.css">

@@ -25,3 +25,6 @@
     </div>
   </div>
 </header>
+<?php include 'include-blocks/header-cart-popup.php' ?>
+<?php include 'include-blocks/header-search-popup.php' ?>
+<?php include 'include-blocks/header-menu-popup.php' ?>

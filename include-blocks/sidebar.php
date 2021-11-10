@@ -138,7 +138,7 @@
   <div class="sidebar-item">
     <p class="sidebar-item-title">Цвета</p>
     
-    <div class="category-color-radio-wrap form-color-radio-wrap active">
+    <div class="category-color-radio-wrap form-color-radio-wrap">
       <div class="form-color-radio-list">
         <div class="form-color-radio-list-shown">
           <label class="form-color-radio">
@@ -200,7 +200,9 @@
 
   <div class="sidebar-item">
     <p class="sidebar-item-title">Цена, ₽</p>
-    Сюда добавить Select
+    <div class="sidebar-range-slider-wrap">
+      <div class="sidebar-range-slider"></div>
+    </div>
   </div>
 
   <div class="sidebar-item">
