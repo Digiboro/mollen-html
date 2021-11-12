@@ -6,7 +6,7 @@
   <title>Ошибка 404</title>
 </head>
 
-<body>
+<body class="no-padding-top">
   <!-- 404 -->
   <main class="page-404 main">
     <div class="page-404-inner">

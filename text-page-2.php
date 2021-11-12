@@ -8,7 +8,7 @@
 
 <body>
   <!-- header -->
-  <?php include 'include-blocks/header-no-border.php' ?>
+  <?php include 'include-blocks/header.php' ?>
 
   <main class="text-page no-top-padding main">
     <div class="container">

@@ -8,7 +8,7 @@
 
 <body>
   <!-- header -->
-  <?php include 'include-blocks/header-no-border.php' ?>
+  <?php include 'include-blocks/header.php' ?>
 
   <main class="text-page gradient-bg main">
     <div class="container">

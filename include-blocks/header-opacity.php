@@ -1,4 +1,4 @@
-<header class="header header-white no-border">
+<header class="header header-opacity no-border">
   <div class="container">
     <div class="header-inner">
       <button class="header-nav-trigger" type="button"><svg width="32" height="6" viewBox="0 0 32 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#fff"/><circle cx="16" cy="3" r="3" fill="#fff"/><circle cx="29" cy="3" r="3" fill="#fff"/></svg></button>
@@ -25,3 +25,6 @@
     </div>
   </div>
 </header>
+<?php include 'include-blocks/header-cart-popup.php' ?>
+<?php include 'include-blocks/header-search-popup.php' ?>
+<?php include 'include-blocks/header-menu-popup.php' ?>
