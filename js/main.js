@@ -1,4 +1,13 @@
 $(function () {
+  // print slider (swiper)
+  let sliderPrint = new Swiper('.print-list', {
+    touchEventsTarget: 'wrapper',
+    slidesPerView: 4,
+    spaceBetween: 20,
+    loop: true,
+    loopAdditionalSlides: 1
+  });
+
   // catalog slider (swiper)
   let sliderCatalog = new Swiper('.category-slider', {
     touchEventsTarget: 'wrapper',

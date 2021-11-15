@@ -3898,3 +3898,64 @@ p.text-page-center-text {
 .complect-page-product-2 {
   width: 25%;
 }
+
+/* -------------------------------------------- */
+/*                     PRINT                    */
+/* -------------------------------------------- */
+
+.print {
+  min-height: 850px;
+  height: 100vh;
+  padding-top: 200px;
+  overflow-x: hidden;
+  background: #1E1E1E url('../img/print-bg.svg') no-repeat;
+  background-position: center bottom -100px;
+}
+
+.print-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.print-list-wrap {
+  width: 100%;
+}
+
+.print-list {
+  overflow: initial;
+}
+
+.print-item {
+  position: relative;
+  display: flex;
+  &:hover {
+    .print-item-first {
+      transform: rotate(-1.17deg);
+    }
+    .print-item-second {
+      transform: rotate(2.51deg);
+    }
+  }
+}
+.print-item-first {
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s;
+}
+.print-item-second {
+  position: absolute;
+  transition: transform 0.2s;
+}
+
+.print-title {
+  margin-top: 160px;
+  color: #FFFFFF;
+}
+
+.print-flower {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
+}
