@@ -3,28 +3,12 @@ $(function () {
   let sliderPrintBig = new Swiper('.print-slider-big', {
     touchEventsTarget: 'wrapper',
     slidesPerView: 1,
-    spaceBetween: 20,
+    spaceBetween: 150,
     loop: false,
     mousewheel: {
       invert: false
     },
     speed: 700,
-  });
-
-  // print single slider (swiper)
-  let sliderPrintSingle = new Swiper('.print-single-slider', {
-    touchEventsTarget: 'wrapper',
-    slidesPerView: 1,
-    spaceBetween: 80,
-    loop: true,
-    navigation: {
-      nextEl: '.print-slider-arrow.next',
-      prevEl: '.print-slider-arrow.prev',
-    },
-    effect: 'fade',
-    fadeEffect: {
-      crossFade: true
-    },
   });
 
   // print slider (swiper)
