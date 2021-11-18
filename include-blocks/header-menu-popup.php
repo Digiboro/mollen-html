@@ -1,4 +1,4 @@
-<div class="menu popup popup-full">
+<div class="menu">
   <div class="container">
     <div class="menu-inner popup-inner">
       <button class="popup-menu-close-trigger btn-close">

@@ -1640,7 +1640,7 @@ em {
 }
 
 .category-slider-btn {
-  position: absolute;
+  position: absolute !important;
   right: 0;
   bottom: 0;
 }
@@ -2339,15 +2339,6 @@ p.text-page-center-text {
     }
   }
 
-  &.popup-full {
-    width: 100%;
-    max-width: none;
-
-    .popup-inner {
-      padding: 0;
-    }
-  }
-
   >.container {
     margin: auto;
   }
@@ -2537,12 +2528,23 @@ p.text-page-center-text {
 
 .menu {
   display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   background: #fff;
+  z-index: 1000;
   &.show {
-    display: block;
+    display: flex;
   }
   > .container {
     max-width: 1490px;
+    margin: auto;
   }
 }
 
@@ -2550,7 +2552,9 @@ p.text-page-center-text {
   display: flex;
   min-height: 820px;
   height: 100vh;
-
+  position: relative;
+  padding: 0;
+  background-color: #fff;
   >div {
     width: 100%;
   }
