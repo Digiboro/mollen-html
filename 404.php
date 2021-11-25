@@ -9,13 +9,15 @@
 <body class="no-padding-top">
   <!-- 404 -->
   <main class="page-404 main">
-    <div class="page-404-inner">
-      <div class="page-404-content">
-        <h1 class="page-404-title title-large">404</h1>
-        <p class="page-404-text fz-20">Страница не найдена или была удалена</p>
-        <a class="page-404-btn btn btn-large" href="">
-          <span class="btn-text">Перейти в каталог</span>
-        </a>
+    <div class="container">
+      <div class="page-404-inner">
+        <div class="page-404-content">
+          <h1 class="page-404-title title-large">404</h1>
+          <p class="page-404-text fz-20">Страница не найдена или была удалена</p>
+          <a class="page-404-btn btn btn-large" href="">
+            <span class="btn-text">Перейти в каталог</span>
+          </a>
+        </div>
       </div>
     </div>
   </main>

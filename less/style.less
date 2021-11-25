@@ -217,9 +217,9 @@ button,
   cursor: pointer;
   -webkit-appearance: none;
 
-  &:focus {
-    outline: 3px solid rgba(78, 118, 198, 0.3);
-  }
+  // &:focus {
+  //   outline: 3px solid rgba(78, 118, 198, 0.3);
+  // }
 }
 
 textarea {
@@ -958,7 +958,9 @@ em {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
   padding: 40px 0;
+  width: 100%;
 }
 
 .page-404-title {
@@ -1041,18 +1043,20 @@ em {
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   cursor: pointer;
 }
 
 .faq-item-title {
   text-transform: uppercase;
+  line-height: 155%;
   .op();
 }
 
 .faq-item-icon {
   display: flex;
-  align-self: center;
   margin-right: 14px;
+  margin-top: 5px;
 }
 
 .faq-item-content {
@@ -1156,6 +1160,10 @@ em {
 .main-checkout-content-wrap {
   display: flex;
   flex-direction: column;
+}
+
+.main-checkout-title {
+  margin-bottom: 40px;
 }
 
 .main-checkout-bottom {
@@ -2555,7 +2563,7 @@ p.text-page-center-text {
   position: relative;
   padding: 0;
   background-color: #fff;
-  >div {
+  > div {
     width: 100%;
   }
 }

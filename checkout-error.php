@@ -35,10 +35,8 @@
           </div>
         </div>
 
-        <div class="col">
-          <div class="main-checkout-img">
-            <img width="720" height="739" src="img/checkout.jpg" alt="img">
-          </div>
+        <div class="main-checkout-img col">
+          <img width="720" height="739" src="img/checkout.jpg" alt="img">
         </div>
       </div>
     </div>
