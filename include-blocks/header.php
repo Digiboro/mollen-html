@@ -27,4 +27,5 @@
 </header>
 <?php include 'include-blocks/header-cart-popup.php' ?>
 <?php include 'include-blocks/header-search-popup.php' ?>
+<!-- header search popup с ошибкой -> 'include-blocks/header-search-popup-error.php -->
 <?php include 'include-blocks/header-menu-popup.php' ?>
