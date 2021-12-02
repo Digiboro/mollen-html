@@ -38,7 +38,7 @@
           <div class="checkout-content-body">
             <div class="checkout-products">
               <div class="checkout-products-list">
-                <div class="checkout-producs-item product-2">
+                <div class="checkout-products-item product-2">
                   <div class="product-2-img">
                     <img src="img/product-2.png" alt="img">
                   </div>
@@ -157,7 +157,7 @@
             </label>
 
             <button class="checkbox-ordering-btn btn btn-large" type="button">
-              <span class="btn-text">Перейти в каталог</span>
+              <span class="btn-text">Оформить заказ</span>
             </button>
           </div>
         </div>
