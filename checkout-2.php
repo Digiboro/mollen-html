@@ -35,6 +35,7 @@
                 <p class="checkout-item-title">Личные данные</p>
                 
                 <div class="checkout-item-content">
+                  <p class="checkout-item-title-mobile">Личные данные</p>
                   <div class="checkout-item-top">
                     <label class="checkout-item-top-radio form-circle-radio">
                       <input class="form-circle-radio-input" type="radio" name="order-1" checked>
@@ -102,10 +103,11 @@
                 </div>
               </div>
 
-              <div class="checkout-item">
+              <div class="checkout-item checkout-item-delivery">
                 <p class="checkout-item-title">Доставка</p>
 
                 <div class="checkout-item-content">
+                  <p class="checkout-item-title-mobile">Доставка</p>
                   <div class="checkout-radio-list">
                     <label class="checkout-radio form-circle-radio">
                       <input class="form-circle-radio-input" type="radio" name="delivery-1" checked>
@@ -152,6 +154,7 @@
                 <p class="checkout-item-title">Способ оплаты</p>
 
                 <div class="checkout-item-content">
+                  <p class="checkout-item-title-mobile">Способ оплаты</p>
                   <div class="checkout-radio-list">
                     <label class="checkout-radio form-circle-radio">
                       <input class="form-circle-radio-input" type="radio" name="pay-1" checked>
@@ -207,6 +210,7 @@
                 <p class="checkout-item-title">Товары в корзине</p>
 
                 <div class="checkout-item-content checkout-product-wrap">
+                  <p class="checkout-item-title-mobile">Товары в корзине</p>
                   <div class="checkout-product-list">
                     <div class="product checkout-product">
                       <div class="product-inner">
