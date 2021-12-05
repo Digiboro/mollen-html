@@ -29,7 +29,7 @@
         </div>
 
         <div class="main-search-result-list">
-          <div class="main-search-result-item">
+          <a class="main-search-result-item" href="">
             <div class="main-search-result-img">
               <img src="img/header-search-result-big.jpg" alt="img">
             </div>
@@ -38,9 +38,9 @@
               <p class="main-search-result-item-title">название товара в две строки</p>
               <p class="main-search-result-item-text">Mollen – магазин нижнего белья, который скоро откроется и начнет продавать постельное белье. </p>
             </div>
-          </div>
+          </a>
           
-          <div class="main-search-result-item">
+          <a class="main-search-result-item" href="">
             <div class="main-search-result-img">
               <img src="img/header-search-result-big.jpg" alt="img">
             </div>
@@ -49,9 +49,9 @@
               <p class="main-search-result-item-title">название товара в две строки</p>
               <p class="main-search-result-item-text">Mollen – магазин нижнего белья, который скоро откроется и начнет продавать постельное белье. </p>
             </div>
-          </div>
-
-          <div class="main-search-result-item">
+          </a>
+          
+          <a class="main-search-result-item" href="">
             <div class="main-search-result-img">
               <img src="img/header-search-result-big.jpg" alt="img">
             </div>
@@ -60,9 +60,9 @@
               <p class="main-search-result-item-title">название товара в две строки</p>
               <p class="main-search-result-item-text">Mollen – магазин нижнего белья, который скоро откроется и начнет продавать постельное белье. </p>
             </div>
-          </div>
-
-          <div class="main-search-result-item">
+          </a>
+          
+          <a class="main-search-result-item" href="">
             <div class="main-search-result-img">
               <img src="img/header-search-result-big.jpg" alt="img">
             </div>
@@ -71,7 +71,7 @@
               <p class="main-search-result-item-title">название товара в две строки</p>
               <p class="main-search-result-item-text">Mollen – магазин нижнего белья, который скоро откроется и начнет продавать постельное белье. </p>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="main-search-result-pagination pagination">
