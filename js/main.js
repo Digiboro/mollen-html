@@ -27,8 +27,15 @@ $(function () {
   let sliderCatalog = new Swiper('.category-slider', {
     touchEventsTarget: 'wrapper',
     slidesPerView: 'auto',
-    spaceBetween: 20,
+    spaceBetween: 5,
     loop: true,
+    breakpoints: {
+      // when window width is >= 320px
+      577: {
+        slidesPerView: 'auto',
+        spaceBetween: 20
+      }
+    }
   });
 
   // dragg slider (swiper)
@@ -133,6 +140,9 @@ $(function () {
   // header menu trigger
   $('.header-nav-trigger').on('click', function (e) {
     e.preventDefault();
+    //page jump fix start
+    document.body.style.top = `-${window.scrollY}px`;
+    //page jump fix end
     $('.menu').addClass('show');
     $('body').addClass('popup-is-open');
   });
@@ -140,6 +150,11 @@ $(function () {
     e.preventDefault();
     $('.menu').removeClass('show');
     $('body').removeClass('popup-is-open');
+    //page jump fix start
+    const scrollY = document.body.style.top;
+    document.body.style.top = '';
+    window.scrollTo(0, parseInt(scrollY || '0') * -1);
+    //page jump fix end
   });
 
   // header menu search
@@ -181,13 +196,27 @@ $(function () {
 
   // index animations
   // step 1
-  window.setTimeout(function() {
-    $('.doors-line').hide();
-  }, 700);
+  if ($('body, html').hasClass('index-animation')) {
+    window.setTimeout(function() {
+      $('.doors-line').hide();
+    }, 700);
+  
+    // step 2
+    window.setTimeout(function() {
+      $('body').removeClass('index-animation');
+      //$('body, html').scrollTop(0);
+    }, 2700);
 
-  // step 2
-  window.setTimeout(function() {
-    $('body').removeClass('index-animation');
-    $('body, html').scrollTop(0);
-  }, 2700);
+    //header white
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 1) {
+        $('.header').addClass("header-bg-white");
+      } else {
+        $('.header').removeClass("header-bg-white");
+      }
+    });
+  }
+
+  
+
 });

@@ -16,7 +16,7 @@
         <div class="category-slider swiper-container">
           <div class="category-slider-inner swiper-wrapper">
             <div class="category-slider-item swiper-slide">
-              <img src="img/category-slider-1.jpg" alt="img">
+              <img class="category-slider-item-img" src="img/category-slider-1.jpg" alt="img">
               <div class="category-slider-item-content">
                 <p class="category-slider-title">новая<br> коллекция</p>
                 <p class="category-slider-text">У каждого принта «Моллен» есть своя история,<br> которую мы вам сейчас расскажем.</p>
@@ -26,16 +26,6 @@
               </div>
             </div>
             
-            <div class="category-slider-item swiper-slide">
-              <img src="img/category-slider-1.jpg" alt="img">
-              <div class="category-slider-item-content">
-                <p class="category-slider-title">новая<br> коллекция</p>
-                <p class="category-slider-text">У каждого принта «Моллен» есть своя история,<br> которую мы вам сейчас расскажем.</p>
-                <a class="category-slider-btn btn btn-extra-small btn-white btn-dot-2" href="">
-                  <span class="btn-text">перейти</span>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -58,6 +48,13 @@
               </div>
               <h2 class="category-title h2">Популярные товары</h2>
             </div>
+          </div>
+
+          <div class="category-content-filter">
+            <button class="category-content-filter-trigger" type="button">
+              <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 4h21M0 11h21M0 18h21" stroke="#222730"/><circle cx="14" cy="4" r="3" fill="#fff" stroke="#222730"/><circle cx="7" cy="11" r="3" fill="#fff" stroke="#222730"/><circle cx="14" cy="18" r="3" fill="#fff" stroke="#222730"/></svg>
+              <span>Фильтры</span>
+            </button>
           </div>
 
           <div class="category-content-actions">
