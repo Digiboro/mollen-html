@@ -47,19 +47,19 @@
             <div class="complect-page-slider-big swiper-container">
               <div class="complect-page-slider-big-inner swiper-wrapper">
                 <div class="complect-page-slider-big-item swiper-slide">
-                  <img src="img/complect-page-slider-big-1.jpg" alt="img">
+                  <img src="img/complect-page-slider-big-1.png" alt="img">
                 </div>
                 <div class="complect-page-slider-big-item swiper-slide">
-                  <img src="img/complect-page-slider-big-1.jpg" alt="img">
+                  <img src="img/complect-page-slider-big-1.png" alt="img">
                 </div>
                 <div class="complect-page-slider-big-item swiper-slide">
-                  <img src="img/complect-page-slider-big-1.jpg" alt="img">
+                  <img src="img/complect-page-slider-big-1.png" alt="img">
                 </div>
                 <div class="complect-page-slider-big-item swiper-slide">
-                  <img src="img/complect-page-slider-big-1.jpg" alt="img">
+                  <img src="img/complect-page-slider-big-1.png" alt="img">
                 </div>
                 <div class="complect-page-slider-big-item swiper-slide">
-                  <img src="img/complect-page-slider-big-1.jpg" alt="img">
+                  <img src="img/complect-page-slider-big-1.png" alt="img">
                 </div>
               </div>
             </div>
