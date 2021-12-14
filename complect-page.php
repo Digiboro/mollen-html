@@ -13,6 +13,7 @@
   <main class="main-complect-page complect-page main">
     <div class="container">
       <div class="complect-page-sliders-content-wrap">
+        <h2 class="complect-page-title-mobile h2">Наволочка двухсторонняя</h2>
         <div class="complect-page-sliders-actions">
           <div class="complect-page-sliders">
             <div class="complect-page-slider-small-wrap">
