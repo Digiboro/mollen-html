@@ -41,9 +41,27 @@ $(function () {
   // dragg slider (swiper)
   let sliderDragg = new Swiper('.dragg-slider', {
     touchEventsTarget: 'wrapper',
-    slidesPerView: 4,
+    slidesPerView: 1,
     spaceBetween: 20,
     loop: true,
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      1211: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      }
+    }
   });
 
   // dragg slider intro (swiper)

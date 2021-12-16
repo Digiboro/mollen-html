@@ -2014,6 +2014,7 @@ em {
 
 .category-recently-viewed-list {
   display: flex;
+  margin-right: -1px;
 }
 
 .category-recently-viewed-item {
@@ -2025,9 +2026,6 @@ em {
   border-right: 1px solid #ECEAE7;
   transition: box-shadow 0.2s;
   transform: translateZ(0);
-  &:last-child {
-    border-right: none;
-  }
   &:hover {
     box-shadow: 0px 4px 24px rgba(46, 67, 108, 0.15);
   }
@@ -2149,6 +2147,7 @@ em {
   position: absolute;
   top: 0;
   left: -90px;
+  z-index: 2;
 }
 
 .slider-arrow {
@@ -2433,7 +2432,7 @@ p.text-page-center-text {
 .input-wrap {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .input-select {
@@ -3779,6 +3778,8 @@ p.text-page-center-text {
 }
 
 .complect-page-sliders-actions {
+  display: flex;
+  flex-direction: column;
   max-width: 580px;
   width: 100%;
 }
@@ -3911,7 +3912,6 @@ p.text-page-center-text {
 .complect-page-product {
   padding-top: 30px;
   border-top: 1px solid #ECEAE7;
-  border-bottom: 1px solid #ECEAE7;
 
   .product-2-info-bottom {
     margin-bottom: 40px;
