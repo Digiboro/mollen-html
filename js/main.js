@@ -67,13 +67,31 @@ $(function () {
   // dragg slider intro (swiper)
   let sliderDraggIntro = new Swiper('.intro-dragg-slider', {
     touchEventsTarget: 'wrapper',
-    slidesPerView: 4,
+    slidesPerView: 1,
     spaceBetween: 20,
     loop: true,
     navigation: {
       nextEl: '.intro-dragg-slider-arrow.next',
       prevEl: '.intro-dragg-slider-arrow.prev',
     },
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      1211: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      }
+    }
   });
 
   // single slider (swiper)
@@ -233,6 +251,12 @@ $(function () {
         $('.header').removeClass("header-bg-white");
       }
     });
+  }
+
+  if (window.matchMedia("(max-width: 991px)").matches) {
+    $('body').removeClass('index-animation');
+  } else {
+    
   }
 
   
