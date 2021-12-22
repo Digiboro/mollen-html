@@ -259,6 +259,18 @@ $(function () {
     
   }
 
-  
+  // popups
+  $('.checkout-delivery-trigger').magnificPopup({
+    type: 'inline',
+    // other options
+  });
+  $('.footer-callback-trigger').magnificPopup({
+    type: 'inline',
+    // other options
+  });
+  $('.complect-page-guide-trigger').magnificPopup({
+    type: 'inline',
+    // other options
+  });
 
 });
