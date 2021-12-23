@@ -259,18 +259,37 @@ $(function () {
     
   }
 
+  $('.category-content-filter-trigger').on('click', function () {
+    $('.sidebar').show();
+    $('body').addClass('popup-is-open');
+  });
+  $('.sidebar-close-trigger').on('click', function () {
+    $('.sidebar').hide();
+    $('body').removeClass('popup-is-open');
+  });
+
   // popups
   $('.checkout-delivery-trigger').magnificPopup({
     type: 'inline',
-    // other options
   });
   $('.footer-callback-trigger').magnificPopup({
     type: 'inline',
-    // other options
   });
   $('.complect-page-guide-trigger').magnificPopup({
     type: 'inline',
-    // other options
+  });
+  $('.sidebar-size-guide-trigger').magnificPopup({
+    type: 'inline',
+  });
+  // text page video
+  $('.video').magnificPopup({
+    type: 'iframe',
+    closeMarkup: '<button class="popup-close-trigger btn-close mfp-close" type="button"><svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1.1765 7.1765-.6962-.6962L2.967 3.9936.4867 1.5133l.698-.698L3.665 3.2956 6.1372.8235l.6962.6962-2.4722 2.4721 2.4804 2.4804-.698.698-2.4804-2.4804-2.4867 2.4867Z" fill="#72716E"/></svg></button>'
+  });
+  // text page profile cards
+  $('.card-list').magnificPopup({
+    delegate: 'a',
+    type: 'inline',
   });
 
 });

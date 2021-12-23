@@ -171,7 +171,7 @@
   <!-- footer -->
   <?php include 'include-blocks/footer.php' ?>
 
-  <div id="size-guide" class="size-guide popup-main">
+  <div id="size-guide" class="size-guide mfp-hide popup-main">
     <div class="size-guide-inner">
       <button class="size-guide-close-btn close-btn mfp-close" type="button"><svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m1.1765 7.1765-.6962-.6962L2.967 3.9936.4867 1.5133l.698-.698L3.665 3.2956 6.1372.8235l.6962.6962-2.4722 2.4721 2.4804 2.4804-.698.698-2.4804-2.4804-2.4867 2.4867Z" fill="#72716E"/></svg></button>
       <p class="size-guide-title">Размерный гид</p>

@@ -60,13 +60,15 @@
         <br>
         <br>
         <br>
-        <div class="video">
-          <div class="video-img">
-            <img src="img/video-preview.jpg" alt="img">
-          </div>
-          <div class="video-play-trigger">
-            <svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M42 84c23.196 0 42-18.804 42-42S65.196 0 42 0 0 18.804 0 42s18.804 42 42 42Zm-7.0133-54.8336 21.3333 11.7c.4187.2314.68.663.68 1.1336 0 .4706-.2613.9022-.68 1.1336l-21.3333 11.7a1.3552 1.3552 0 0 1-.6534.1664c-.232 0-.464-.0598-.672-.1768C33.2507 54.5892 33 54.1628 33 53.7V30.3c0-.4628.2507-.8892.6613-1.1232a1.3657 1.3657 0 0 1 1.3254-.0104Z" fill="#ECEAE7"/></svg>
-          </div>
+        <div class="video-wrap">
+          <a class="video" href="http://www.youtube.com/watch?v=DeumyOzKqgI">
+            <div class="video-img" >
+              <img src="img/video-preview.jpg" alt="img">
+            </div>
+            <div class="video-play-trigger">
+              <svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M42 84c23.196 0 42-18.804 42-42S65.196 0 42 0 0 18.804 0 42s18.804 42 42 42Zm-7.0133-54.8336 21.3333 11.7c.4187.2314.68.663.68 1.1336 0 .4706-.2613.9022-.68 1.1336l-21.3333 11.7a1.3552 1.3552 0 0 1-.6534.1664c-.232 0-.464-.0598-.672-.1768C33.2507 54.5892 33 54.1628 33 53.7V30.3c0-.4628.2507-.8892.6613-1.1232a1.3657 1.3657 0 0 1 1.3254-.0104Z" fill="#ECEAE7"/></svg>
+            </div>
+          </a>
         </div>
         <br>
         <br>

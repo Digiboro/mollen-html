@@ -32,6 +32,13 @@
               <h2 class="category-title h2">Вы выбрали товары</h2>
             </div>
           </div>
+
+          <div class="category-content-filter">
+            <button class="category-content-filter-trigger" type="button">
+              <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 4h21M0 11h21M0 18h21" stroke="#222730"/><circle cx="14" cy="4" r="3" fill="#fff" stroke="#222730"/><circle cx="7" cy="11" r="3" fill="#fff" stroke="#222730"/><circle cx="14" cy="18" r="3" fill="#fff" stroke="#222730"/></svg>
+              <span>Фильтры</span>
+            </button>
+          </div>
           
           <div class="category-product-list">
             <div class="product hover-effect">
