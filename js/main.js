@@ -268,6 +268,21 @@ $(function () {
     $('body').removeClass('popup-is-open');
   });
 
+  // product card color/print picker
+  $('.product-color-selected').on('click', function () {
+    $(this).next().show();
+  });
+  $('.product-color-list').on('click', '.product-color-item', function () {
+    let bgSave;
+    if ($(this).css('background-image') == 'none') {
+      bgSave = $(this).css('background-color')
+    } else {
+      bgSave = $(this).css('background-image')
+    }
+    $(this).parent().parent().parent().find('.product-color-selected').css('background', bgSave);
+    $(this).parent().parent().hide();
+  });
+
   // popups
   $('.checkout-delivery-trigger').magnificPopup({
     type: 'inline',

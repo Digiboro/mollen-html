@@ -68,9 +68,20 @@
                   </div>
                   <div class="product-top-second">
                     <div class="product-color">
-                      <button class="product-color-selected" type="button">
-                        <img src="img/product-print.png" alt="img">
+                      <button class="product-color-selected" style="background: url('img/product-print.png');" type="button">
                       </button>
+                      <div class="product-color-list-wrap">
+                        <div class="product-color-list">
+                          <button class="product-color-item" style="background: #59C9D5;" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #497BB8" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #E6ECE0" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: url('img/product-print.png');" type="button">
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -103,9 +114,20 @@
                   </div>
                   <div class="product-top-second">
                     <div class="product-color">
-                      <button class="product-color-selected" type="button">
-                        <img src="img/product-print.png" alt="img">
+                      <button class="product-color-selected" style="background: url('img/product-print.png');" type="button">
                       </button>
+                      <div class="product-color-list-wrap">
+                        <div class="product-color-list">
+                          <button class="product-color-item" style="background: #59C9D5;" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #497BB8" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #E6ECE0" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: url('img/product-print.png');" type="button">
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -138,9 +160,20 @@
                   </div>
                   <div class="product-top-second">
                     <div class="product-color">
-                      <button class="product-color-selected" type="button">
-                        <img src="img/product-print.png" alt="img">
+                      <button class="product-color-selected" style="background: url('img/product-print.png');" type="button">
                       </button>
+                      <div class="product-color-list-wrap">
+                        <div class="product-color-list">
+                          <button class="product-color-item" style="background: #59C9D5;" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #497BB8" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #E6ECE0" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: url('img/product-print.png');" type="button">
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -173,9 +206,20 @@
                   </div>
                   <div class="product-top-second">
                     <div class="product-color">
-                      <button class="product-color-selected" type="button">
-                        <img src="img/product-print.png" alt="img">
+                      <button class="product-color-selected" style="background: url('img/product-print.png');" type="button">
                       </button>
+                      <div class="product-color-list-wrap">
+                        <div class="product-color-list">
+                          <button class="product-color-item" style="background: #59C9D5;" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #497BB8" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #E6ECE0" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: url('img/product-print.png');" type="button">
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -208,9 +252,20 @@
                   </div>
                   <div class="product-top-second">
                     <div class="product-color">
-                      <button class="product-color-selected" type="button">
-                        <img src="img/product-print.png" alt="img">
+                      <button class="product-color-selected" style="background: url('img/product-print.png');" type="button">
                       </button>
+                      <div class="product-color-list-wrap">
+                        <div class="product-color-list">
+                          <button class="product-color-item" style="background: #59C9D5;" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #497BB8" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #E6ECE0" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: url('img/product-print.png');" type="button">
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -243,9 +298,20 @@
                   </div>
                   <div class="product-top-second">
                     <div class="product-color">
-                      <button class="product-color-selected" type="button">
-                        <img src="img/product-print.png" alt="img">
+                      <button class="product-color-selected" style="background: url('img/product-print.png');" type="button">
                       </button>
+                      <div class="product-color-list-wrap">
+                        <div class="product-color-list">
+                          <button class="product-color-item" style="background: #59C9D5;" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #497BB8" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: #E6ECE0" type="button">
+                          </button>
+                          <button class="product-color-item" style="background: url('img/product-print.png');" type="button">
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
