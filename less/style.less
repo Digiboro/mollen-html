@@ -2034,6 +2034,24 @@ em {
   margin-bottom: -8px;
 }
 
+.product-click-btn {
+  display: flex;
+  &.active {
+    .product-click-amount {
+      display: block;
+    }
+  }
+}
+
+.product-click-amount {
+  display: none !important;
+  margin-right: 15px;
+  background-color: #fff !important;
+  &.active {
+    display: flex !important;
+  }
+}
+
 .product-quickbuy {
   margin-top: 24px;
   font-size: 13px;
@@ -2558,6 +2576,10 @@ p.text-page-center-text {
   position: absolute;
   bottom: 0;
   color: #CF4F4C;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
 }
 
 .input-text {

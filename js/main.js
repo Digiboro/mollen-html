@@ -283,6 +283,25 @@ $(function () {
     $(this).parent().parent().hide();
   });
 
+  // plus minus input
+  $('.amount-trigger.plus').on('click', function () {
+    let curVal = $(this).parent().find('.amount-input').val();
+    $(this).parent().find('.amount-input').val(+curVal + 1);
+  });
+
+  $('.amount-trigger.minus').on('click', function () {
+    let curVal = +$(this).parent().find('.amount-input').val();
+    if (curVal < 1) {
+      curVal = 1
+    }
+    $(this).parent().find('.amount-input').val(curVal - 1);
+  });
+
+  // product click btn -> amount
+  $('.product-click-btn').on('click', function () {
+    $(this).parent().find('.product-click-amount').addClass('active');
+  });
+
   // popups
   $('.checkout-delivery-trigger').magnificPopup({
     type: 'inline',

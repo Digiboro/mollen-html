@@ -79,7 +79,12 @@
                 </div>
 
                 <div class="product-bottom">
-                  <button class="btn btn-medium" type="button">
+                  <button class="product-click-btn btn btn-medium" type="button">
+                    <span class="product-click-amount amount">
+                      <span class="amount-trigger minus" type="button">-</span>
+                      <input class="amount-input" type="text" maxlength="3" value="1">
+                      <span class="amount-trigger plus" type="button">+</span>
+                    </span>
                     <span class="btn-text">В корзину</span>
                   </button>
                   <button class="product-quickbuy" type="button">Быстрая покупка</button>
@@ -125,7 +130,12 @@
                 </div>
 
                 <div class="product-bottom">
-                  <button class="btn btn-medium" type="button">
+                  <button class="product-click-btn btn btn-medium" type="button">
+                    <span class="product-click-amount amount">
+                      <span class="amount-trigger minus" type="button">-</span>
+                      <input class="amount-input" type="text" maxlength="3" value="1">
+                      <span class="amount-trigger plus" type="button">+</span>
+                    </span>
                     <span class="btn-text">В корзину</span>
                   </button>
                   <button class="product-quickbuy" type="button">Быстрая покупка</button>
@@ -171,7 +181,12 @@
                 </div>
 
                 <div class="product-bottom">
-                  <button class="btn btn-medium" type="button">
+                  <button class="product-click-btn btn btn-medium" type="button">
+                    <span class="product-click-amount amount">
+                      <span class="amount-trigger minus" type="button">-</span>
+                      <input class="amount-input" type="text" maxlength="3" value="1">
+                      <span class="amount-trigger plus" type="button">+</span>
+                    </span>
                     <span class="btn-text">В корзину</span>
                   </button>
                   <button class="product-quickbuy" type="button">Быстрая покупка</button>
@@ -217,7 +232,12 @@
                 </div>
 
                 <div class="product-bottom">
-                  <button class="btn btn-medium" type="button">
+                  <button class="product-click-btn btn btn-medium" type="button">
+                    <span class="product-click-amount amount">
+                      <span class="amount-trigger minus" type="button">-</span>
+                      <input class="amount-input" type="text" maxlength="3" value="1">
+                      <span class="amount-trigger plus" type="button">+</span>
+                    </span>
                     <span class="btn-text">В корзину</span>
                   </button>
                   <button class="product-quickbuy" type="button">Быстрая покупка</button>
@@ -263,7 +283,12 @@
                 </div>
 
                 <div class="product-bottom">
-                  <button class="btn btn-medium" type="button">
+                  <button class="product-click-btn btn btn-medium" type="button">
+                    <span class="product-click-amount amount">
+                      <span class="amount-trigger minus" type="button">-</span>
+                      <input class="amount-input" type="text" maxlength="3" value="1">
+                      <span class="amount-trigger plus" type="button">+</span>
+                    </span>
                     <span class="btn-text">В корзину</span>
                   </button>
                   <button class="product-quickbuy" type="button">Быстрая покупка</button>
@@ -309,7 +334,12 @@
                 </div>
 
                 <div class="product-bottom">
-                  <button class="btn btn-medium" type="button">
+                  <button class="product-click-btn btn btn-medium" type="button">
+                    <span class="product-click-amount amount">
+                      <span class="amount-trigger minus" type="button">-</span>
+                      <input class="amount-input" type="text" maxlength="3" value="1">
+                      <span class="amount-trigger plus" type="button">+</span>
+                    </span>
                     <span class="btn-text">В корзину</span>
                   </button>
                   <button class="product-quickbuy" type="button">Быстрая покупка</button>
