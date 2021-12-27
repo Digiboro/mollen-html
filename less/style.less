@@ -4097,7 +4097,7 @@ p.text-page-center-text {
 /* -------------------------------------------- */
 
 .print {
-  min-height: 850px;
+  min-height: 720px;
   height: 100vh;
   overflow-x: hidden;
   color: #fff;
@@ -4111,14 +4111,17 @@ p.text-page-center-text {
 
 .print-list {
   overflow: initial;
-  min-height: 720px;
-  height: 100vh;
+  padding-top: 200px;
 }
 
 .print-item {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
+  &:focus {
+    outline: 0;
+  }
   &:hover {
     .print-item-first {
       transform: rotate(-1.17deg);
@@ -4141,7 +4144,7 @@ p.text-page-center-text {
 }
 
 .print-title {
-  margin-top: 160px;
+  margin-top: 100px;
   text-align: center;
   color: #FFFFFF;
 }

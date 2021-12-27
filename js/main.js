@@ -14,13 +14,25 @@ $(function () {
   // print slider (swiper)
   let sliderPrint = new Swiper('.print-list', {
     touchEventsTarget: 'wrapper',
-    slidesPerView: 4,
+    slidesPerView: 'auto',
     spaceBetween: 20,
+    centeredSlides: true,
     loop: true,
     loopAdditionalSlides: 1,
     mousewheel: {
       invert: false
     },
+    breakpoints: {
+      // when window width is >= 320px
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      1211: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      }
+    }
   });
 
   // catalog slider (swiper)
